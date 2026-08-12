@@ -1,0 +1,4 @@
+v1 official green
+n=1539
+mean_green_pct=14.53
+source=official_landcover_natural.gpkg
