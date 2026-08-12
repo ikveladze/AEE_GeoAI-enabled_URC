@@ -1,0 +1,63 @@
+Odense AEE PCA/UMAP feature-space validation
+=======================================================
+HAS_UMAP: True
+ORIENT_FEATURES_TO_POSITIVE: False
+AEE feature-space loading report
+=============================================
+OK: walk_access_15m
+OK: bike_access_5m
+OK: bike_access_15m
+OK: pt_stop_access_10m
+OK: pt_stop_access_20m
+OK: green_share_pct
+OK: env_quality
+OK: env_burden
+OK: builtup_pct
+OK: road_buf_pct
+OK: air_pollution_mean
+OK: heat_mean
+OK: noise_mean
+OK: pop_density_km2
+OK: age_vulnerability
+OK: socioeconomic_vulnerability
+OK: demographic_vulnerability
+
+Cells in merged feature space: 1539
+Features used: 15
+Features:
+  - walk_access_15m
+  - bike_access_5m
+  - bike_access_15m
+  - pt_stop_access_10m
+  - pt_stop_access_20m
+  - green_share_pct
+  - env_quality
+  - env_burden
+  - builtup_pct
+  - road_buf_pct
+  - air_pollution_mean
+  - heat_mean
+  - noise_mean
+  - pop_density_km2
+  - age_vulnerability
+
+Dropped features:
+  - socioeconomic_vulnerability: all missing
+  - demographic_vulnerability: excluded by revision policy (equity/duplicate)
+PCA cluster silhouette: 0.41518512753826026
+UMAP cluster silhouette: 0.5048838257789612
+Full feature-space cluster silhouette: 0.26986767831012426
+
+PCA explained variance:
+  PC1: 0.4841; cumulative=0.4841
+  PC2: 0.1596; cumulative=0.6437
+  PC3: 0.0960; cumulative=0.7397
+  PC4: 0.0586; cumulative=0.7983
+  PC5: 0.0535; cumulative=0.8519
+  PC6: 0.0486; cumulative=0.9005
+
+Outputs:
+  GeoPackage: /Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_aee_feature_space_outputs/odense_aee_feature_space_500m.gpkg
+  Feature matrix: /Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_aee_feature_space_outputs/odense_aee_feature_matrix.csv
+  PCA loadings: /Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_aee_feature_space_outputs/odense_aee_pca_loadings.csv
+  PCA variance: /Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_aee_feature_space_outputs/odense_aee_pca_explained_variance.csv
