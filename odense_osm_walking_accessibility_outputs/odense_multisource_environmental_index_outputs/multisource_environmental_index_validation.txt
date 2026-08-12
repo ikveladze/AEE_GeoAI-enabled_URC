@@ -1,0 +1,12 @@
+Official-first environmental index v1
+n_hex=1539
+mean_green_pct=14.53
+mean_blue_pct=1.39
+mean_builtup_pct=26.56
+mean_road_buf_pct=1.29
+mean_eco_pct=7.56
+quality_weights={'green_share_norm': 0.18, 'blue_share_norm': 0.08, 'builtup_inverse_norm': 0.12, 'road_burden_inverse_norm': 0.1, 'official_natural_share_norm': 0.15, 'eco_share_norm': 0.12, 'noise_share_inverse_norm': 0.08, 'heat_mean_inverse_norm': 0.09, 'noise_mean_inverse_norm': 0.08}
+burden_weights={'low_green_norm': 0.12, 'builtup_share_norm': 0.18, 'road_burden_norm': 0.15, 'low_official_natural_norm': 0.1, 'low_eco_share_norm': 0.1, 'noise_share_norm': 0.1, 'heat_mean_norm': 0.12, 'noise_mean_norm': 0.08, 'air_pollution_mean_norm': 0.05}
+sources: official_landcover_natural, official_blue, official_builtup, official_roads,
+protected_nature/ecological_health_vector, noise_vector, heat/noise/air rasters
+air_quality_raster is interim Open-Meteo/CAMS proxy pending DCE
