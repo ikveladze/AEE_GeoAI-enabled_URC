@@ -229,32 +229,7 @@ After a successful run (or from deposited files):
 
 ---
 
-## 10. Upload to GitHub
-
-This package is already organised for upload to:
-**https://github.com/ikveladze/AEE_GeoAI-enabled_URC**
-
-### Option A — GitHub Desktop / web UI
-1. Create or open the empty repository `AEE_GeoAI-enabled_URC`.  
-2. Copy the **contents** of `GitHub ready materials/` into the local clone (so `README.md` is at repo root).  
-3. Commit and push.
-
-### Option B — command line
-```bash
-cd "/path/to/AEE_GeoAI-enabled_URC"
-# if empty repo:
-git clone https://github.com/ikveladze/AEE_GeoAI-enabled_URC.git .
-rsync -a --exclude '.git' "/path/to/GitHub ready materials/" ./
-git add -A
-git commit -m "Add AEE GeoAI URC replication package (Odense): code, metadata, outputs, figures"
-git push -u origin main
-```
-
-If GitHub rejects large files, remove the largest map PNGs first or use [Git LFS](https://git-lfs.com/). Current package size is designed to stay under typical soft limits (~200 MB).
-
----
-
-## 11. Citation and licence notes
+## 10. Citation and licence notes
 
 - Cite the *Urban Science* article when published, and this repository commit/DOI when reusing code or deposited hex layers.  
 - Follow `DATA_LICENSING.md` for OSM, GeoDanmark/Klimadatastyrelsen, WDPA, LBST, Vejdirektoratet, ESA/Zenodo CLIM4cities, and Statistics Denmark extracts.  
@@ -262,6 +237,6 @@ If GitHub rejects large files, remove the largest map PNGs first or use [Git LFS
 
 ---
 
-## 12. Contact
+## 11. Contact
 
 Open a GitHub issue for path errors, missing dependencies, or questions about regenerating a specific figure or transferring the workflow to another city.
