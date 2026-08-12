@@ -40,7 +40,7 @@ The study treats the urban–rural continuum as a **functional** Accessibility�
 2. **Indicator construction (AEE domains)**  
    - **Accessibility (A):** network-based walk / bike / PT *stop-access* potential (not GTFS door-to-door travel).  
    - **Environment (E):** relative amenity–pressure proxies (green/blue/protected vs built-up/road; supporting heat/noise/air).  
-   - **Equity (Q):** density-/age-related demographic exposure for interpretation; **excluded from GMM clustering**.
+   - **Equity (E):** density-/age-related demographic exposure for interpretation; **excluded from GMM clustering**.
 3. **Feature screening** — join by `hex_id`, median imputation, drop near-collinear features (`|r| > 0.90`, iterative VIF > 10). Environmental burden is dropped because of near-perfect correlation with environmental quality.
 4. **Interpretation before classification** — PCA (and exploratory UMAP) summarise dominant gradients; they do **not** define class labels.
 5. **Primary typology** — Gaussian Mixture Model (GMM) on the screened, z-standardised feature matrix; *k* selected by BIC with minimum share and silhouette constraints (**k = 5** components → **four** planning map labels after Queen smoothing).
