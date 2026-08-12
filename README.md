@@ -5,7 +5,7 @@
 **Study:** GeoAI-enabled Accessibility–Environment–Equity (AEE) mapping of the functional urban–rural continuum  
 **Case:** Odense Municipality, Denmark  
 **Analytical unit:** 500 m hexagons (`n = 1,539`), CRS **EPSG:25832**  
-**Package purpose:** enable scientific replication, audit of deposited results, and transfer of the workflow to other mid-sized municipalities
+**Package purpose:** enable scientific replication, and transfer of the workflow to other mid-sized municipalities
 
 **Please be aware of the data availability:** Some demographic data have been removed from this GitHub repository due to their sensitive nature and cannot be shared publicly. References to the corresponding field names may remain in parts of the code; however, no sensitive values are included. These field names are retained intentionally to document the types of input data required and to help other researchers reproduce or adapt the analytical workflow using appropriately authorized or equivalent datasets. 
 
