@@ -22,11 +22,6 @@ This package mixes open geodata, municipal extracts, and derived research produc
 - **Analysis-ready composites** and **hex-level derived indicators** needed to reproduce the paper’s Stage B results.
 - Scripts and Appendix A1 documentation.
 
-## What we do not claim
-
-- We do not claim ownership of OSM, GeoDanmark, WDPA, LBST, Vejdirektoratet, or ESA products.
-- Population density on hexes is a **research estimate** (class midpoints scaled to municipal total), not Statistics Denmark official Kvadratnet person counts.
-- Air quality in v1 is an **interim proxy**.
 
 ## Recommended citation
 
