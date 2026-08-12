@@ -1,0 +1,18 @@
+﻿Group,Geospatial dataset / layer,Geometry type,Native resolution / scale,CRS (analysis),Provider / access,Used for
+Spatial frame,Odense Municipality boundary,Polygon,Municipal extent (~304.37 km²),EPSG:25832,Klimadatastyrelsen / DAGI,Clip mask and study extent
+Spatial frame,500 m hexagonal analysis grid,Polygon (hex),"500 m spacing; n = 1,539",EPSG:25832,Constructed for this study,Common analysis unit (hex_id)
+Networks,OSM pedestrian network (OSMnx walk),Line / graph,"Street–path network, Odense clip",EPSG:25832,OpenStreetMap via OSMnx/Overpass,Walking accessibility routing
+Networks,OSM bicycle network (OSMnx bike),Line / graph,"Bike-compatible network, Odense clip",EPSG:25832,OpenStreetMap via OSMnx/Overpass,Cycling accessibility routing
+Points of interest,OSM service amenities (POI/polygon tags),Point / polygon,Tagged destinations within Odense,EPSG:25832,OpenStreetMap via OSMnx/Overpass,Service destinations for walk/bike access
+Points of interest,OSM public-transport stops/stations,Point,Bus/rail/tram stops and hubs,EPSG:25832,OpenStreetMap via OSMnx/Overpass,PT stop-access potential
+Land cover / land use,GeoDanmark natural/green classes,Polygon,Official topographic land-cover polygons,EPSG:25832,Klimadatastyrelsen–municipal GeoDanmark; Datafordeler/Dataforsyningen,Green-cover share
+Land cover / land use,GeoDanmark water (blue) features,Polygon,Official water polygons,EPSG:25832,Klimadatastyrelsen–municipal GeoDanmark; Datafordeler/Dataforsyningen,Blue-cover share
+Land cover / land use,GeoDanmark built-up / settlement fabric,Polygon,Official built-up classes,EPSG:25832,Klimadatastyrelsen–municipal GeoDanmark; Datafordeler/Dataforsyningen,Built-up intensity
+Transport infrastructure,GeoDanmark road centre-lines (vejmidte),Line,Official road network; major roads filtered,EPSG:25832,Klimadatastyrelsen–municipal GeoDanmark; Datafordeler/Dataforsyningen,50 m major-road exposure buffer
+Protected nature,WDPA (Denmark) ∪ LBST §3 / areal nature,Polygon,National protected-area polygons,EPSG:25832,Protected Planet; Landbrugsstyrelsen,Protected/open-land share
+Buildings (ancillary),BBR buildings with residential floor area,Point / building records,Address-linked buildings (2020 stock),EPSG:25832,Danish Building and Dwelling Register (BBR),Dasymetric population weights (BYG_BOLIG_)
+Demographic zones,Parish (SOGN) and postcode (POSTNR) polygons,Polygon,Administrative zones,EPSG:25832,Klimadatastyrelsen DAGI/DAWA + StatBank joins,Zone counts for dasymetric allocation
+Demographic validation grid,DST Kvadratnet 1 km density classes,Polygon grid,1 km cells; density interval classes,EPSG:25832,Statistics Denmark Kvadratnet extranet,Soft constraint / validation of dasymetric density
+Supporting raster,Summer land-surface temperature (CLIM4cities),Raster,~100 m,EPSG:25832,ESA / Zenodo CLIM4cities,Heat exposure (supporting env. composite)
+Supporting vector/raster,State-road traffic noise Lden (2022),Polygon bands / raster,State-road corridors,EPSG:25832,Vejdirektoratet,Noise exposure (supporting env. composite)
+Supporting raster (interim),Regional NO₂ air-quality surface,Raster,Regional/CAMS-based surface,EPSG:25832,Open-Meteo / Copernicus CAMS (interim),Interim air-pollution proxy
