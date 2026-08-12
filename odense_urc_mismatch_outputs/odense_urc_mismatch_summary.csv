@@ -1,6 +1,0 @@
-mismatch_category,n_cells,area_km2,mean_mismatch_intensity,cell_share_pct,area_share_pct
-Agreement,678,134.98864512622796,0.0,44.05,44.36
-Soft mismatch: AEE more urban-functional than conventional,386,71.0026884972676,1.0,25.08,23.33
-Soft mismatch: conventional more urban than AEE,324,66.99107201261876,1.0,21.05,22.02
-Strong mismatch: AEE more urban-functional than conventional,138,28.72043565294265,2.239130434782609,8.97,9.44
-Strong mismatch: conventional more urban than AEE,13,2.593995402116716,2.0,0.84,0.85
