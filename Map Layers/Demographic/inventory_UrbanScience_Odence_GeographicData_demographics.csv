@@ -1,8 +1,0 @@
-file,n,what,has_total_pop,has_age,has_gender,usable_for_hex
-PopulationDensity_InMainDistrict.shp,417,"1km cells with DST-style density CLASS bands (1-19,20-49,...,400>), district name",False,False,False,ordinal density only
-Odence SquareGrid.shp / OdenseGridCut.shp,1584/403,same density classes on square grid,False,False,False,ordinal density only
-Odense PopylationDensityPoints.shp,102,OSM place points; Odense city=178210 + villages; NOT grid demographics,partial/OSM,False,False,no
-Population dencity_Odense.tif,—,density raster (file not readable here / not hydrated),unknown,False,False,maybe if readable
-PopDensity_MainDistricts.xlsx,—,area shares by density class × East/West/South,False,False,False,no
-odense_kvadratnet_DKN_*_ETRS89.png,—,preview images of empty Kvadratnet geometry WMS only,False,False,False,no
-100m_grid Odense.shp,—,100m grid geometry (shp not readable/hydrated in this session),unknown,False,False,unknown
