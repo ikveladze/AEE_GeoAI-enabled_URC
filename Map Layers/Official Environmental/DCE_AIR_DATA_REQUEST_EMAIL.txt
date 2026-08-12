@@ -1,0 +1,51 @@
+Subject: Research data request – Luften på din vej / AirGIS extract for Odense Municipality
+
+--- English version ---
+
+Dear DCE Air Quality / AirGIS team,
+
+I am a researcher at Aalborg University (AAU PLAN) preparing a revision of a manuscript for MDPI Urban Science on GeoAI-enabled Accessibility–Environment–Equity (AEE) mapping of the urban–rural continuum in Odense Municipality, Denmark.
+
+We respectfully request a research extract of “Luften på din vej” / Air Quality at Your Street (AirGIS) data for Odense Municipality, preferably:
+
+• Annual mean NO₂ (primary need)
+• Optionally annual mean PM2.5
+• Reference year 2019 (v2.0) or any newer available year
+• Format: GeoTIFF, GeoPackage, shapefile, or address-point CSV with coordinates
+• CRS: preferably EPSG:25832 (or WGS84)
+
+Study area: Odense Municipality (approx. bbox ETRS89/UTM32N: 574500–600000 E, 6127700–6149300 N).
+
+We will use the data solely for academic publication, cite DCE / Jensen et al. appropriately, and will not redistribute the raw dataset beyond the paper’s aggregated hex-level indicators.
+
+Portal used for reference: https://lpdv.spatialsuite.dk/spatialmap
+
+Thank you for considering this request. I am happy to provide a brief project description or ethics/data-use statement if required.
+
+Kind regards,
+[Your name]
+[Affiliation, email, ORCID]
+
+--- Dansk version ---
+
+Kære DCE luftkvalitet / AirGIS-team,
+
+Jeg er forsker ved Aalborg Universitet (AAU PLAN) og reviderer et manuskript til MDPI Urban Science om GeoAI-baseret Accessibility–Environment–Equity (AEE) kortlægning af det by–landlige kontinuum i Odense Kommune.
+
+Vi vil gerne anmode om et forskningsudtræk af data fra “Luften på din vej” / AirGIS for Odense Kommune, gerne:
+
+• Årsmiddel NO₂ (primært behov)
+• Evt. årsmiddel PM2.5
+• Referenceår 2019 (v2.0) eller nyere hvis tilgængeligt
+• Format: GeoTIFF, GeoPackage, shapefile eller adresse-punkter med koordinater
+• CRS: helst EPSG:25832
+
+Studieområde: Odense Kommune.
+
+Dataene vil kun bruges til akademisk publicering, citeres korrekt, og rådata videredistribueres ikke.
+
+Referenceportal: https://lpdv.spatialsuite.dk/spatialmap
+
+Med venlig hilsen,
+[Navn]
+[Affiliation, e-mail]
