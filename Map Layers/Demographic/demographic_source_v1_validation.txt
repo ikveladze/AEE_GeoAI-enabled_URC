@@ -1,0 +1,8 @@
+Demographic source grid v1
+cells=330
+raw_pop_sum=64,104.2
+scale_to_KOMM_TOT_21=3.213316
+scaled_pop_sum=205,987.0 (target 205,987)
+nonwestern_sum=8,562.0
+NOTE: pop_total is density-class midpoint × area, scaled to municipality total.
+NOTE: age columns intentionally NaN (no hex/1km age counts yet).
