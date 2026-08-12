@@ -1,0 +1,13 @@
+Data layer,Details,Source,Year / reference date
+BBR buildings,Address-linked buildings; residential floor area (BYG_BOLIG_) as dasymetric weights,Danish Building and Dwelling Register (BBR); OD Buildings_2020 extract,2020
+GeoDanmark buildings / built-up,Building footprints and built-up land-cover classes,Klimadatastyrelsen & municipalities (GeoDanmark); Datafordeler / Dataforsyningen,~2023 (downloaded 2026-07-29)
+GeoDanmark land use / land cover,"Natural/green, water, and related land-cover polygons",Klimadatastyrelsen & municipalities (GeoDanmark); Datafordeler / Dataforsyningen,~2023 (downloaded 2026-07-29)
+GeoDanmark road network,Road centre-lines and attributes; major roads for exposure buffers,Klimadatastyrelsen & municipalities (GeoDanmark); Datafordeler / Dataforsyningen,~2023 (downloaded 2026-07-29)
+OpenStreetMap (OSM),"Walk/bike networks, amenities, public-transport stops",OpenStreetMap contributors; OSMnx/Overpass (Geofabrik community),Retrieval snapshot; analysis GPKG 2026-06-01
+StatBank SOGN / POSTNR / FOLK1A,Parish and postcode population counts; municipal control total,Statistics Denmark StatBank,"2022–2026 (FOLK1A ≈ 213,431)"
+DST Kvadratnet density classes,1 km density interval classes for soft constraint / validation,Statistics Denmark Kvadratnet extranet,~2019
+Protected / §3 nature,WDPA protected areas and Danish §3 / areal nature,Protected Planet (UNEP-WCMC); Landbrugsstyrelsen (LBST),2026 (WDPA/LBST pulls)
+Summer land-surface temperature,Mean summer LST for environmental composites,ESA CLIM4cities Sentinel-3 SLSTR (Zenodo),Jun–Aug 2020–2023
+State-road traffic noise (Lden),Noise exposure along state roads,Vejdirektoratet Støjkortlægning af statsveje,2022
+Air pollution proxy (NO₂),Interim regional NO₂ surface (CAMS-based),Open-Meteo Air Quality API,2026-07-29
+Dasymetric population (500 m hex),Preferred density surface (SOGN × BBR; FOLK1A; DST soft-constraint),Derived product (this study),2026-07-31

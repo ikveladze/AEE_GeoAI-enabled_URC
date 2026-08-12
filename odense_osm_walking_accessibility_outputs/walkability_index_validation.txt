@@ -1,0 +1,26 @@
+Walkability index validation
+========================================
+Category weights sum: 1.0000 (expect 1.0)
+Composite raw score max deviation: 0.000000 (expect 0)
+  score_food_retail: values outside [0,1] = 0
+  score_health: values outside [0,1] = 0
+  score_education_childcare: values outside [0,1] = 0
+  score_food_drink: values outside [0,1] = 0
+  score_civic_daily_services: values outside [0,1] = 0
+  score_recreation: values outside [0,1] = 0
+Hexagons beyond 15 min cutoff from all selected service categories: 655
+Distance values above 1206 m cutoff: 0 (expect 0)
+Score range (0–100): 0.00 – 100.00
+Class distribution:
+  Beyond 15 min cutoff: 655 cells, mean score 0.0
+  Low: 177 cells, mean score 9.0
+  Very low: 177 cells, mean score 3.8
+  Very high: 177 cells, mean score 61.5
+  High: 177 cells, mean score 34.6
+  Moderate: 176 cells, mean score 18.3
+
+Method notes:
+- Network: OSM walk, undirected, metric CRS EPSG:25832
+- Access: multi-source Dijkstra from services, exp(-d/700) decay, 15 min cutoff
+- Index: weighted category scores, min-max scaled to 0–100
+- Classes: 'Beyond 15 min cutoff' = raw 0; others = quintiles among accessible cells

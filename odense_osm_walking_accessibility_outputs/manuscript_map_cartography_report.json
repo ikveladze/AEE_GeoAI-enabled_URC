@@ -1,0 +1,289 @@
+{
+  "generated_at": "2026-07-30T14:26:54.644877+00:00",
+  "n": 35,
+  "n_ok": 32,
+  "n_failed": 0,
+  "n_skipped": 3,
+  "jobs": [
+    {
+      "name": "Walking accessibility \u2192 odense_walking_accessibility_services_500m_map.png",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_walking_accessibility_services_500m_map.png",
+      "exists": true,
+      "size": 7413957,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "Walking accessibility \u2192 odense_walking_accessibility_services_500m_map_osm.png",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_walking_accessibility_services_500m_map_osm.png",
+      "exists": true,
+      "size": 7413957,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "Cycling \u2192 odense_cycling_accessibility_services_500m_map_5min.png",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_osm_cycling_accessibility_outputs/odense_cycling_accessibility_services_500m_map_5min.png",
+      "exists": true,
+      "size": 7421517,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "Cycling \u2192 odense_cycling_accessibility_services_500m_map_15min.png",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_osm_cycling_accessibility_outputs/odense_cycling_accessibility_services_500m_map_15min.png",
+      "exists": true,
+      "size": 7470636,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "Cycling \u2192 odense_cycling_accessibility_services_500m_map_15min_osm.png",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_osm_cycling_accessibility_outputs/odense_cycling_accessibility_services_500m_map_15min_osm.png",
+      "exists": true,
+      "size": 7470636,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "PT \u2192 odense_public_transport_stop_accessibility_500m_map_10min.png",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_osm_public_transport_accessibility_outputs/odense_public_transport_stop_accessibility_500m_map_10min.png",
+      "exists": true,
+      "size": 7369734,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "PT \u2192 odense_public_transport_stop_accessibility_500m_map_20min.png",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_osm_public_transport_accessibility_outputs/odense_public_transport_stop_accessibility_500m_map_20min.png",
+      "exists": true,
+      "size": 7422983,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "PT \u2192 odense_public_transport_stop_accessibility_500m_map_20min_osm.png",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_osm_public_transport_accessibility_outputs/odense_public_transport_stop_accessibility_500m_map_20min_osm.png",
+      "exists": true,
+      "size": 7422983,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "Green \u2192 odense_green_area_share_500m_map.png",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_osm_green_area_share_outputs/odense_green_area_share_500m_map.png",
+      "exists": true,
+      "size": 5459008,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "Green \u2192 odense_green_area_share_500m_map_osm.png",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_osm_green_area_share_outputs/odense_green_area_share_500m_map_osm.png",
+      "exists": true,
+      "size": 5459008,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "Env \u2192 odense_environmental_quality_index_500m_map.png",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_multisource_environmental_index_outputs/odense_environmental_quality_index_500m_map.png",
+      "exists": true,
+      "size": 334598,
+      "status": "SKIPPED",
+      "detail": "missing column env_quality_class"
+    },
+    {
+      "name": "Env \u2192 odense_environmental_quality_index_500m_map_osm.png",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_multisource_environmental_index_outputs/odense_environmental_quality_index_500m_map_osm.png",
+      "exists": true,
+      "size": 7529096,
+      "status": "SKIPPED",
+      "detail": "missing column env_quality_class"
+    },
+    {
+      "name": "Env \u2192 odense_environmental_burden_index_500m_map.png",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_multisource_environmental_index_outputs/odense_environmental_burden_index_500m_map.png",
+      "exists": true,
+      "size": 322602,
+      "status": "SKIPPED",
+      "detail": "missing column env_burden_class"
+    },
+    {
+      "name": "Env component \u2192 odense_green_share_env_500m_map.png",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_multisource_environmental_index_outputs/odense_green_share_env_500m_map.png",
+      "exists": true,
+      "size": 5453019,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "Env component \u2192 odense_builtup_share_500m_map.png",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_multisource_environmental_index_outputs/odense_builtup_share_500m_map.png",
+      "exists": true,
+      "size": 5509664,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "Env component \u2192 odense_road_buffer_share_500m_map.png",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_multisource_environmental_index_outputs/odense_road_buffer_share_500m_map.png",
+      "exists": true,
+      "size": 5381280,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "Population density",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_demographic_indicator_outputs/odense_population_density_500m_map.png",
+      "exists": true,
+      "size": 7484862,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "Demographic index (density-based)",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_demographic_indicator_outputs/odense_demographic_vulnerability_index_500m_map.png",
+      "exists": true,
+      "size": 7471505,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "Demographic index (alt filename)",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_demographic_indicator_outputs/odense_demographic_vulnerability_index_500m_map_osm.png",
+      "exists": true,
+      "size": 7471505,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "Odense AEE Feature Clusters by 500 m Cell",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_aee_feature_space_outputs/odense_aee_feature_cluster_map.png",
+      "exists": true,
+      "size": 7237942,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "Odense AEE PCA Clusters by 500 m Cell",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_aee_feature_space_outputs/odense_aee_pca_cluster_map.png",
+      "exists": true,
+      "size": 7237004,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "Odense AEE UMAP Clusters by 500 m Cell",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_aee_feature_space_outputs/odense_aee_umap_cluster_map.png",
+      "exists": true,
+      "size": 7238355,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "Typology \u2192 odense_geoai_functional_urc_typology_map.png",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_geoai_functional_urc_typology_outputs/odense_geoai_functional_urc_typology_map.png",
+      "exists": true,
+      "size": 7495027,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "Typology \u2192 odense_functional_urc_typology_map.png",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_geoai_functional_urc_typology_outputs/odense_functional_urc_typology_map.png",
+      "exists": true,
+      "size": 7495027,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "URC score map",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_geoai_functional_urc_typology_outputs/odense_functional_urc_score_map.png",
+      "exists": true,
+      "size": 5563092,
+      "status": "OK",
+      "detail": ""
+    },
+    {
+      "name": "Odense GMM Membership Uncertainty by 500 m Cell",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_urc_benchmarking_uncertainty_outputs/odense_urc_gmm_membership_uncertainty_map.png",
+      "exists": true,
+      "size": 7543943,
+      "status": "OK",
+      "detail": "col=gmm_uncertainty_class"
+    },
+    {
+      "name": "Odense Boundary Heterogeneity by 500 m Cell",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_urc_benchmarking_uncertainty_outputs/odense_urc_boundary_heterogeneity_map.png",
+      "exists": true,
+      "size": 5483690,
+      "status": "OK",
+      "detail": "col=boundary_heterogeneity"
+    },
+    {
+      "name": "Odense Scenario Stability by 500 m Cell",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_urc_benchmarking_uncertainty_outputs/odense_urc_scenario_stability_map.png",
+      "exists": true,
+      "size": 5606239,
+      "status": "OK",
+      "detail": "col=scenario_stability"
+    },
+    {
+      "name": "Odense GMM\u2013k-means Agreement by 500 m Cell",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_urc_benchmarking_uncertainty_outputs/odense_urc_gmm_kmeans_agreement_map.png",
+      "exists": true,
+      "size": 7248712,
+      "status": "OK",
+      "detail": "col=gmm_kmeans_agreement"
+    },
+    {
+      "name": "Odense Density Benchmark by 500 m Cell",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_urc_benchmarking_uncertainty_outputs/odense_urc_density_benchmark_map.png",
+      "exists": true,
+      "size": 7501592,
+      "status": "OK",
+      "detail": "col=benchmark_morphology_density_only"
+    },
+    {
+      "name": "Odense Conventional vs AEE Mismatch by 500 m Cell",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_urc_mismatch_outputs/odense_urc_conventional_vs_aee_mismatch_map.png",
+      "exists": true,
+      "size": 5583307,
+      "status": "OK",
+      "detail": "col=mismatch_intensity"
+    },
+    {
+      "name": "Odense URC Mismatch Intensity by 500 m Cell",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_urc_mismatch_outputs/odense_urc_mismatch_intensity_map.png",
+      "exists": true,
+      "size": 5580144,
+      "status": "OK",
+      "detail": "col=mismatch_intensity"
+    },
+    {
+      "name": "Odense Conventional\u2013AEE Agreement by 500 m Cell",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_urc_mismatch_outputs/odense_urc_agreement_map.png",
+      "exists": true,
+      "size": 5649971,
+      "status": "OK",
+      "detail": "col=agreement_binary"
+    },
+    {
+      "name": "Odense Conventional Urban\u2013Rural Classification by 500 m Cell",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_urc_mismatch_outputs/odense_conventional_urban_rural_classification_map.png",
+      "exists": true,
+      "size": 5547648,
+      "status": "OK",
+      "detail": "col=conventional_urbanity_score"
+    },
+    {
+      "name": "Odense AEE Functional URC Class by 500 m Cell",
+      "path": "/Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_urc_mismatch_outputs/odense_aee_functional_urc_class_map.png",
+      "exists": true,
+      "size": 5562366,
+      "status": "OK",
+      "detail": "col=functional_urc_score"
+    }
+  ]
+}
