@@ -1,0 +1,43 @@
+AEE dimension,Indicator ID,Indicator name,Class field,Class,Cell count,Cell share (%)
+Accessibility,walk_access_15m,Walking accessibility to services,walk_access_class,Beyond 15 min cutoff,655,42.56
+Accessibility,walk_access_15m,Walking accessibility to services,walk_access_class,Low,177,11.5
+Accessibility,walk_access_15m,Walking accessibility to services,walk_access_class,Very low,177,11.5
+Accessibility,walk_access_15m,Walking accessibility to services,walk_access_class,Very high,177,11.5
+Accessibility,walk_access_15m,Walking accessibility to services,walk_access_class,High,177,11.5
+Accessibility,walk_access_15m,Walking accessibility to services,walk_access_class,Moderate,176,11.44
+Accessibility,bike_access_5m,"Cycling accessibility to services, 5 min",bike_access_class_5m,Beyond 5 min cutoff,614,39.9
+Accessibility,bike_access_5m,"Cycling accessibility to services, 5 min",bike_access_class_5m,Low,185,12.02
+Accessibility,bike_access_5m,"Cycling accessibility to services, 5 min",bike_access_class_5m,Moderate,185,12.02
+Accessibility,bike_access_5m,"Cycling accessibility to services, 5 min",bike_access_class_5m,Very low,185,12.02
+Accessibility,bike_access_5m,"Cycling accessibility to services, 5 min",bike_access_class_5m,Very high,185,12.02
+Accessibility,bike_access_5m,"Cycling accessibility to services, 5 min",bike_access_class_5m,High,185,12.02
+Accessibility,bike_access_15m,"Cycling accessibility to services, 15 min",bike_access_class_15m,Very low,298,19.36
+Accessibility,bike_access_15m,"Cycling accessibility to services, 15 min",bike_access_class_15m,Very high,298,19.36
+Accessibility,bike_access_15m,"Cycling accessibility to services, 15 min",bike_access_class_15m,Low,297,19.3
+Accessibility,bike_access_15m,"Cycling accessibility to services, 15 min",bike_access_class_15m,Moderate,297,19.3
+Accessibility,bike_access_15m,"Cycling accessibility to services, 15 min",bike_access_class_15m,High,297,19.3
+Accessibility,bike_access_15m,"Cycling accessibility to services, 15 min",bike_access_class_15m,Beyond 15 min cutoff,52,3.38
+Accessibility,pt_stop_access_10m,"Public transport stop accessibility, 10 min",pt_access_class_10m,Beyond 10 min cutoff,989,64.26
+Accessibility,pt_stop_access_10m,"Public transport stop accessibility, 10 min",pt_access_class_10m,Low,110,7.15
+Accessibility,pt_stop_access_10m,"Public transport stop accessibility, 10 min",pt_access_class_10m,Very high,110,7.15
+Accessibility,pt_stop_access_10m,"Public transport stop accessibility, 10 min",pt_access_class_10m,Moderate,110,7.15
+Accessibility,pt_stop_access_10m,"Public transport stop accessibility, 10 min",pt_access_class_10m,Very low,110,7.15
+Accessibility,pt_stop_access_10m,"Public transport stop accessibility, 10 min",pt_access_class_10m,High,110,7.15
+Accessibility,pt_stop_access_20m,"Public transport stop accessibility, 20 min",pt_access_class_20m,Beyond 20 min cutoff,630,40.94
+Accessibility,pt_stop_access_20m,"Public transport stop accessibility, 20 min",pt_access_class_20m,Very high,182,11.83
+Accessibility,pt_stop_access_20m,"Public transport stop accessibility, 20 min",pt_access_class_20m,Low,182,11.83
+Accessibility,pt_stop_access_20m,"Public transport stop accessibility, 20 min",pt_access_class_20m,Very low,182,11.83
+Accessibility,pt_stop_access_20m,"Public transport stop accessibility, 20 min",pt_access_class_20m,High,182,11.83
+Accessibility,pt_stop_access_20m,"Public transport stop accessibility, 20 min",pt_access_class_20m,Moderate,181,11.76
+Equity,population_density,Population density,pop_density_class,Very low,616,40.03
+Equity,population_density,Population density,pop_density_class,Moderate,308,20.01
+Equity,population_density,Population density,pop_density_class,High,308,20.01
+Equity,population_density,Population density,pop_density_class,Low,307,19.95
+Equity,age_vulnerability,Age vulnerability,age_vulnerability_class,Very low,616,40.03
+Equity,age_vulnerability,Age vulnerability,age_vulnerability_class,Moderate,308,20.01
+Equity,age_vulnerability,Age vulnerability,age_vulnerability_class,High,308,20.01
+Equity,age_vulnerability,Age vulnerability,age_vulnerability_class,Low,307,19.95
+Equity,demographic_vulnerability,Composite demographic vulnerability,demo_vulnerability_class,Very low,616,40.03
+Equity,demographic_vulnerability,Composite demographic vulnerability,demo_vulnerability_class,Moderate,308,20.01
+Equity,demographic_vulnerability,Composite demographic vulnerability,demo_vulnerability_class,High,308,20.01
+Equity,demographic_vulnerability,Composite demographic vulnerability,demo_vulnerability_class,Low,307,19.95
