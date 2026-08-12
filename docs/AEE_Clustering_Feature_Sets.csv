@@ -1,0 +1,4 @@
+﻿Feature set,Indicators included,Selection rule,Analytical use
+GMM primary clustering set,walk_access_15m; bike_access_15m; pt_stop_access_20m; green_share_pct; env_quality; env_burden; builtup_pct; road_buf_pct; pop_density_km2,Nonredundant AE + density morphology; drop |r|>0.90; iterative VIF>10; z-score,BIC/AIC-selected GMM (this run K*=5)
+Nested threshold indicators (not default clustering),bike_access_5m; pt_stop_access_10m,Retained for profiles / sensitivity,Descriptive comparison of short vs longer access thresholds
+Excluded from clustering (by design),demographic_vulnerability; age_vulnerability; socioeconomic_vulnerability; functional_urc_score; heat_mean; noise_mean; air_pollution_mean; domain composites used only as derived scores where noted,Reviewer-aligned equity audit / avoid circularity with URC score,"Mapping, profiling and benchmarking only"
