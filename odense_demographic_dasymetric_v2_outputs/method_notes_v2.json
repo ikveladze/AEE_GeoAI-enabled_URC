@@ -1,0 +1,8 @@
+{
+  "M1": "Areal weighting of StatBank parish counts to hex (Goodchild & Lam 1980).",
+  "M2": "Binary dasymetric: equal parish pop per residential BBR building (Eicher & Brewer 2001).",
+  "M3": "Floor-area weighted dasymetric using BYG_BOLIG_ within parish (Mennis 2003).",
+  "M4": "DST 1 km class midpoints scaled to KOMM_TOT, areal to hex (previous v1 approach).",
+  "M5": "Hybrid: DST cell totals refined by BBR bolig weights inside each 1 km cell.",
+  "M6": "Postcode (POSTNR1) totals + age bands redistributed by BYG_BOLIG_."
+}

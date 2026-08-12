@@ -1,0 +1,90 @@
+Demographic dasymetric analysis v2 — Odense AEE
+================================================
+Hex cells: 2596
+Residential BBR buildings used: 109636
+Parishes matched: 36 | Postcodes: 9 | DST 1km cells: 305
+
+Control totals
+--------------
+{
+  "KOMM_TOT_21": 205987.0,
+  "FOLK1A_2026K2": 213431.0,
+  "SOGN1_2026_sum": 213067.0,
+  "SOGN10_2022_sum": 205954.0,
+  "POSTNR_2026_sum": 207331.0,
+  "M1_map_sum": 213041.8722731339,
+  "M2_map_sum": 213027.56411776214,
+  "M3_map_sum": 213040.64014346414,
+  "M3_folk_sum": 213430.99999999994,
+  "M4_sum": 205983.52937454553,
+  "M5_sum": 205987.0,
+  "M6_sum": 207323.55095152714,
+  "preferred_pop_total_sum": 213430.99999999994,
+  "preferred_age0_sum": 32417.655954016518,
+  "preferred_age65_sum": 37701.960788787634,
+  "M3_parish_max_abs_err": 0.0,
+  "M3_parish_mean_abs_err": 0.0
+}
+
+Validation vs DST 1 km density CLASSES (not exact counts)
+---------------------------------------------------------
+           method  n_cells       pop_sum  class_agreement_rate  spearman_r    spearman_p  pearson_r  mae_vs_class_mid  rmse_vs_class_mid  median_dens_est  median_dens_mid
+    M2_binary_BBR      305 208227.189045              0.580328    0.930997 1.191331e-134   0.669980        479.800680        1141.773821       108.621746             74.5
+ M3_floorarea_BBR      305 208488.519089              0.439344    0.907063 7.223797e-116   0.589361        529.488984        1334.012981        76.128194             74.5
+M5_hybrid_DST_BBR      305 202839.171959              0.400000    0.944610 1.184276e-148   0.963051        429.409898         598.679203       283.228894             74.5
+    M1_areal_SOGN      305 203883.022221              0.377049    0.648217  9.670816e-38   0.572588        473.207431         882.184349       390.046019             74.5
+ M4_DST_mid_areal      305 203654.886958              0.350820    0.934328 8.570324e-138   0.990058        431.896351         546.335682       358.874565             74.5
+  M6_postcode_BBR      305 206828.696761              0.249180    0.835453  9.192853e-81   0.515935        591.257147        1576.630070        27.930527             74.5
+
+Preferred product
+-----------------
+pop_total = M3 parish×BBR BYG_BOLIG_ dasymetric, scaled to StatBank FOLK1A (213,431)
+age_0_14 / age_65plus = POSTNR1 age bands × BBR weights, scaled to Basisdata age structure × FOLK ratio
+Files:
+  /Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/Map Layers/Demographic/dasymetric_population_hex500_v2.gpkg
+  /Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/Map Layers/Demographic/dasymetric_population_1km_v2.gpkg
+  /Users/za10pb/Library/CloudStorage/OneDrive-AalborgUniversitet/AAU PLAN/CONFERENCE MATERIALS/MDPI Journals/Urban Science_Urban Rural Continuum/odense_osm_walking_accessibility_outputs_1/odense_demographic_dasymetric_v2_outputs
+
+Important caveats
+-----------------
+1. DST extranet provides density *intervals*, not person counts; class agreement and rank
+   correlation are the appropriate ground-truth metrics.
+2. Temporal mismatch: DST classes ~2019, SOGN10=2022, SOGN1/POSTNR/FOLK=2026, BBR=2020,
+   KOMM_TOT age structure=2021.
+3. OMRP age–sex micro-areas lack a spatial crosswalk in this folder and were used only
+   for municipal consistency via KOMM_TOT extracts.
+4. Migration / origin fields intentionally excluded per study design.
+
+Publications used
+-----------------
+- Mennis, J. (2003). Generating surface models of population using dasymetric mapping. The Professional Geographer, 55(1), 31–42. (DOI: 10.1111/0033-0124.10042) — Floor-area / categorical ancillary dasymetric redistribution (M3).
+- Mennis, J., & Hultgren, T. (2006). Intelligent dasymetric mapping and its application to areal interpolation. Cartography and Geographic Information Science, 33(3), 179–194. (DOI: 10.1559/152304006779077309) — Intelligent / hybrid dasymetric parameterisation (M5).
+- Eicher, C. L., & Brewer, C. A. (2001). Dasymetric mapping and areal interpolation: Implementation and evaluation. Cartography and Geographic Information Science, 28(2), 125–138. (DOI: 10.1559/152304001782173727) — Binary dasymetric mask using inhabited buildings (M2).
+- Comber, A., & Zeng, W. (2019). Spatial interpolation using areal features: A review of methods and opportunities using new forms of data with coded illustrations. Geography Compass, 13(1), e12425. (DOI: 10.1111/gec3.12425) — Method taxonomy: areal weighting vs ancillary-constrained dasymetric.
+- Quirós, E., et al. (2022). Empiric recommendations for population disaggregation under different data scenarios. PLOS ONE, 17(9), e0274504. (DOI: 10.1371/journal.pone.0274504) — Guidance favouring building-weighted / hybrid disaggregation when footprints exist.
+- Tobler, W. R. (1979). Smooth pycnophylactic interpolation for geographical regions. Journal of the American Statistical Association, 74(367), 519–530. (DOI: 10.1080/01621459.1979.10481647) — Conceptual reference for mass-preserving (pycnophylactic) redistribution; parish totals preserved in M1–M3/M6.
+- Goodchild, M. F., & Lam, N. S.-N. (1980). Areal interpolation: A variant of the traditional spatial problem. Geo-Processing, 1, 297–312. (DOI: None) — Areal weighting baseline (M1).
+
+DST soft-constrained refinement (M3c)
+-------------------------------------
+M3 parish×floor-area estimates were soft-projected into DST density-class intervals
+per 1 km cell (densities below the class floor raised to the floor; densities above
+the class ceiling lowered to the ceiling), then rescaled to FOLK1A=213,431.
+
+Validation after constraint:
+      method  class_agreement_rate  spearman_r       pop_sum  median_dens
+  pop_M3_val              0.498361    0.907063 208488.519089    76.128194
+ pop_M3c_val              0.570492    0.944860 196261.416367    87.337654
+  pop_M2_val              0.622951    0.930997 208227.189045   108.621746
+ pop_M3_folk              0.478689    0.899670 211990.977643    81.886678
+pop_M3c_folk              0.688525    0.944860 213161.582566    94.858342
+ pop_M2_folk              0.596721    0.927289 211802.218694   109.185219
+      pop_M5              0.400000    0.944610 202839.171959   283.228894
+      pop_M6              0.308197    0.835453 206828.696761    27.930527
+
+PREFERRED PRODUCT FOR STUDY MAPS
+--------------------------------
+pop_total = M3c_folk
+Rationale: preserves StatBank parish counts (via M3), uses BBR housing floor area
+(Mennis 2003), and respects DST Kvadratnet density classes as soft ground truth.
+Age structure from POSTNR1×BBR (M6), scaled to Basisdata KOMM_TOT age shares × FOLK.
