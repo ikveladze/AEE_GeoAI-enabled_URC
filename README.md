@@ -22,7 +22,7 @@ This folder is the GitHub-ready deposit of codes, metadata tables, essential spa
 | `Map Layers/` | Municipal boundary, 500 m hex grid, demographic source layers, official environmental composites used in the reported run |
 | `external_sources/` | Density-class source and municipal population control totals |
 | `odense_osm_walking_accessibility_outputs_1/` | Python pipeline scripts + deposited hex outputs (GPKG/CSV/maps) |
-| `figures/` | Figure 2 workflow, Figure 5 PCA scatter, modelling flowcharts |
+| `figures/` | workflow, PCA scatter, modelling flowcharts |  etc...
 | `requirements.txt` | Python dependencies |
 | `DATA_LICENSING.md` | Attribution and redistribution notes for OSM, GeoDanmark, WDPA, etc. |
 | `.gitignore` | Excludes virtual environments, caches, logs |
