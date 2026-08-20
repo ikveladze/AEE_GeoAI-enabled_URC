@@ -1,4 +1,4 @@
-# AEE GeoAI-enabled Urban–Rural Continuum (URC) — Replication Package
+# AEE GeoAI-enabled Urban–Rural Continuum (URC)
 
 **Repository target:** https://github.com/ikveladze/AEE_GeoAI-enabled_URC  
 
